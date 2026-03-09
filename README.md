@@ -1,6 +1,6 @@
 # K-AI — AI-Powered KiCad Schematic Assistant
 
-K-AI is a KiCad plugin that lets you describe a schematic in plain text and have Claude AI generate or modify it for you — no API key required. It works by bridging KiCad with a Chrome-controlled Claude session, so it runs on your existing Claude plan.
+K-AI is a KiCad plugin that lets you describe a schematic in plain text and have Claude AI generate or modify it for you no API key required. It works by bridging KiCad with a Chrome-controlled Claude session, so it runs on your existing Claude plan.
 
 ---
 
@@ -17,7 +17,7 @@ No API billing. No key setup. Just your Claude account.
 
 ## Requirements
 
-- KiCad 7 or 8
+- KiCad 9
 - Python 3.x (bundled with KiCad)
 - Google Chrome
 - A Claude account (claude.ai) — the better the model, the better the output
@@ -115,15 +115,10 @@ KI-AI/
 
 Pull requests are welcome! If you find a bug or want to suggest a feature, open an issue.
 
----
-
-## License
-
-MIT License — free to use, modify, and distribute.
 
 ---
 
 ## Author
 
-Built by [Your Name] — an aerospace engineering student and embedded systems developer.  
+Built by Shay Colaco — an aerospace engineering student and embedded systems developer.  
 If you find this useful, leave a ⭐ on the repo!
