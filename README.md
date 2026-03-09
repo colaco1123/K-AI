@@ -1,6 +1,6 @@
 # K-AI — AI-Powered KiCad Schematic Assistant
 
-K-AI is a KiCad plugin that lets you describe a schematic in plain text and have Claude AI generate or modify it for you no API key required. It works by bridging KiCad with a Chrome-controlled Claude session, so it runs on your existing Claude plan.
+K-AI is a KiCad plugin that lets you describe a schematic in plain text and have Claude AI generate or modify it for you — no API key required. It works by bridging KiCad with a Chrome-controlled Claude session, so it runs on your existing Claude plan.
 
 ---
 
@@ -18,7 +18,6 @@ No API billing. No key setup. Just your Claude account.
 ## Requirements
 
 - KiCad 9
-- Python 3.x (bundled with KiCad)
 - Google Chrome
 - A Claude account (claude.ai) — the better the model, the better the output
 
@@ -26,44 +25,47 @@ No API billing. No key setup. Just your Claude account.
 
 ## Installation
 
-### 1. Place the plugin folder
+### 1. Open the Plugin Directory
 
-Open KiCad PCB Editor, then:
+In KiCad PCB Editor go to **Tools → External Plugins → Open Plugin Directory**
 
-```
-Tools > Scripting Console > Open Plugin Directory
-```
+![Step 1 - Open Plugin Directory](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step1.png)
 
-Copy the `KI-AI` folder into that directory.
+---
 
-### 2. Run the install script
+### 2. Place the K-AI Folder
 
-Navigate into the `KI-AI` folder and run:
+Copy the `K-AI` folder into the plugin directory that just opened
 
-- **Windows:** double-click `1_INSTALL.bat`
-- **Mac/Linux:** run `bash 1_INSTALL.sh` in terminal
+![Step 2 - Place K-AI folder](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step5.png)
 
-This installs the required dependencies (browser driver, etc.).
+---
 
-### 3. Refresh plugins
+### 3. Run the Install Script
 
-In KiCad:
-```
-Tools > Plugin and Scripting Console > Refresh Plugins
-```
+Open the `K-AI` folder and double-click **`1_INSTALL`** — this installs the required dependencies
 
-The **K-AI** button will appear in your toolbar.
+![Step 3 - File contents](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step2.png)
+
+---
+
+### 4. Refresh Plugins & Launch
+
+Go back to KiCad → **Tools → External Plugins → Refresh Plugins**
+
+The **K-AI icon** will appear in your toolbar (the green square icon)
+
+![Step 4 - K-AI toolbar icon](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step4.png)
 
 ---
 
 ## First-Time Setup
 
-1. Click the K-AI plugin button
-2. Run `2_START_BRIDGE` to launch the bridge
-3. A Chrome window will open — **log in to claude.ai** once
-4. You're ready to go
+1. Run **`2_START_BRIDGE`** from the K-AI folder
+2. A Chrome window will open — **log in to claude.ai once**
+3. Click the K-AI toolbar icon — the assistant dialog will open
 
-> ⚠️ Keep the Chrome window open while using the plugin. It's used to send and receive messages.
+> ⚠️ Keep the Chrome window open while using the plugin
 
 ---
 
@@ -71,17 +73,19 @@ The **K-AI** button will appear in your toolbar.
 
 1. Open a schematic in KiCad
 2. Click the **K-AI** toolbar button
-3. Type your prompt (e.g. *"Add a decoupling cap to the VCC rail"*)
-4. Wait for Claude to respond and apply changes
+3. Type your instruction in the prompt box (e.g. *"Add a decoupling cap to the VCC rail"*)
+4. Click **Apply Edit** and wait for Claude to respond
 
-**Tip:** Claude Sonnet or Opus will give faster and more accurate schematic results than Haiku.
+![K-AI Dialog](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step3.png)
+
+**Tip:** Claude Sonnet or Opus will give faster and more accurate results than Haiku.
 
 ---
 
 ## File Structure
 
 ```
-KI-AI/
+K-AI/
 ├── __init__.py          # Plugin entry point
 ├── 1_INSTALL            # Dependency installer
 ├── 2_START_BRIDGE       # Launches the Chrome bridge
@@ -115,10 +119,15 @@ KI-AI/
 
 Pull requests are welcome! If you find a bug or want to suggest a feature, open an issue.
 
+---
+
+## License
+
+MIT License — free to use, modify, and distribute.
 
 ---
 
 ## Author
 
-Built by Shay Colaco — an aerospace engineering student and embedded systems developer.  
+Built by colaco1123 — aerospace engineering student and embedded systems developer.  
 If you find this useful, leave a ⭐ on the repo!
