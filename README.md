@@ -130,5 +130,5 @@ MIT License — free to use, modify, and distribute.
 
 ## Author
 
-Built by colaco1123 — aerospace engineering student and embedded systems developer.  
+Built by Shay Colaco — aerospace engineer and embedded systems developer.  
 If you find this useful, leave a ⭐ on the repo!
