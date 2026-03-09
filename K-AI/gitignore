@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Browser drivers (downloaded at install time)
+chromedriver*
+geckodriver*
+*.exe
+
+# KiCad auto-generated
+*.bak
+*.kicad_prl
+fp-info-cache
+*-backups/
+
+# Environment / secrets
+.env
+*.env
+config.local.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+bridge.log
