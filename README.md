@@ -37,7 +37,7 @@ In KiCad PCB Editor go to **Tools → External Plugins → Open Plugin Directory
 
 Copy the `K-AI` folder into the plugin directory that just opened
 
-![Step 2 - Place K-AI folder](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step5.png)
+
 
 ---
 
@@ -49,13 +49,13 @@ Open the `K-AI` folder and double-click **`1_INSTALL`** — this installs the re
 
 ---
 
+![Step 4 - K-AI toolbar icon](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step4.png)
+
 ### 4. Refresh Plugins & Launch
 
 Go back to KiCad → **Tools → External Plugins → Refresh Plugins**
 
 The **K-AI icon** will appear in your toolbar (the green square icon)
-
-![Step 4 - K-AI toolbar icon](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step4.png)
 
 ---
 
@@ -96,7 +96,7 @@ K-AI/
 ```
 
 ---
-
+![Step 2 - Place K-AI folder](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step5.png)
 ## Known Limitations
 
 - Chrome must stay open during use
