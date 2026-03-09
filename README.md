@@ -44,12 +44,13 @@ Copy the `K-AI` folder into the plugin directory that just opened
 ### 3. Run the Install Script
 
 Open the `K-AI` folder and double-click **`1_INSTALL`** — this installs the required dependencies
+![Step 4 - K-AI toolbar icon](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step4.png)
 
 ![Step 3 - File contents](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step2.png)
 
 ---
 
-![Step 4 - K-AI toolbar icon](https://raw.githubusercontent.com/colaco1123/K-AI/main/K-AI/assets/images/step4.png)
+
 
 ### 4. Refresh Plugins & Launch
 
